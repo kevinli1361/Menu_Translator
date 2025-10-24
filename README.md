@@ -14,8 +14,6 @@ The menu can come from:
 
 The goal is to make the translated version look **natural, accurate, and visually identical** to the original menu.  
 
----
-
 ## 🪜 Development Progress  
 
 ### ✅ First Step (completed)  
@@ -36,12 +34,8 @@ I use **pipelines** for actually processing those images:
 - Aggressive:   deskew -> grayscale -> denoise(bilateral) -> contrast -> binarize(otsu) -> morph(close)
 - Custom:       for experimentation and future machine learning purposes
 
----
-
 ### ✅ Second Step (completed)  
 Developed the `SimpleOCR` class in `simple_ocr.py`, which extracts Chinese text from menu images and saves the output to **`menu_extracted.txt`**.  
-
----
 
 ### ⏳ Third Step (pending)  
 Next, I plan to parse the extracted text into three categories:
@@ -49,8 +43,6 @@ Next, I plan to parse the extracted text into three categories:
 **description**
 **price**
 These will be then translated and exported to **`menu_translated.txt`**.  
-
----
 
 ## 🚀 Ideas for Future Development  
 
@@ -64,8 +56,6 @@ These will be then translated and exported to **`menu_translated.txt`**.
   Avoid visible artifacts (like the faint overlay line used in Google Translate).  
   The goal is to achieve **perfect visual blending** while keeping both the content and aesthetics intact.  
 
----
-
 ## 📂 Project Structure  
 
 menu-translator/
@@ -77,8 +67,6 @@ menu-translator/
 ├── README.md           # Project documentation
 └── sharps1.png         # test menu image from Sharps Roasthouse
 
----
-
 ## 🧠 Tech Stack  
 - Python (cannot be the latest 3.14. I spent too much time figuring out it doesn't work well with numpy)
 - OpenCV (dependent on numpy)
@@ -87,11 +75,7 @@ menu-translator/
 - NumPy
 - uv (virtual environment management tool)
 
----
-
 ## 📫 Contact  
 👤 **Kevin Li**  
 If you have suggestions or want to contribute, feel free to open an issue or pull request.  
-
----
 
