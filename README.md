@@ -34,6 +34,8 @@ I use **pipelines** for actually processing those images:
 - Aggressive:   deskew -> grayscale -> denoise(bilateral) -> contrast -> binarize(otsu) -> morph(close)
 - Custom:       for experimentation and future machine learning purposes
 
+Note(10/28/2025): I add a "Try Everything" mode where you can create 320 test results from different combinations of processing methods.
+
 ### ✅ Second Step (completed)  
 Developed the `SimpleOCR` class in `simple_ocr.py`, which extracts Chinese text from menu images and saves the output to **`menu_extracted.txt`**.  
 
@@ -58,14 +60,14 @@ These will be then translated and exported to **`menu_translated.txt`**.
 
 ## 📂 Project Structure  
 
-menu-translator/
-├── menu_translator.py  # Image preprocessing (grayscale, binarization, etc.)
-├── simple_ocr.py       # OCR text extraction logic
-├── menu_extracted.txt  # Extracted raw text from menu images
-├── menu_translated.txt # (Pending) Translated output
-├── correct_answer.txt  # (Optional) Ground truth for evaluation
-├── README.md           # Project documentation
-└── sharps1.png         # test menu image from Sharps Roasthouse
+menu-translator
+├── menu_translator.py      Image preprocessing (grayscale, binarization, etc.)
+├── simple_ocr.py           OCR text extraction logic
+├── menu_extracted.txt      Extracted raw text from menu images
+├── menu_translated.txt     (Pending) Translated output
+├── correct_answer.txt      (Optional) Ground truth for evaluation
+├── README.md               Project documentation
+└── sharps1.png             test menu image from Sharps Roasthouse
 
 ## 🧠 Tech Stack  
 - Python (cannot be the latest 3.14. I spent too much time figuring out it doesn't work well with numpy)
@@ -78,4 +80,5 @@ menu-translator/
 ## 📫 Contact  
 👤 **Kevin Li**  
 If you have suggestions or want to contribute, feel free to open an issue or pull request.  
+
 
