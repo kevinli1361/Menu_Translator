@@ -1,0 +1,1908 @@
+OCR PIPELINE COMPARISON RESULTS
+============================================================
+
+Rank 1: deskew_grayscale_denoise(bilateral)_contrast
+  Overall Score: 90.33%
+  Character Accuracy: 92.91%
+  Word Accuracy: 90.70%
+  Line Accuracy: 83.33%
+  Edit Distance: 12
+
+Rank 2: grayscale_denoise(bilateral)_contrast
+  Overall Score: 90.33%
+  Character Accuracy: 92.91%
+  Word Accuracy: 90.70%
+  Line Accuracy: 83.33%
+  Edit Distance: 12
+
+Rank 3: deskew_grayscale
+  Overall Score: 90.29%
+  Character Accuracy: 91.43%
+  Word Accuracy: 93.02%
+  Line Accuracy: 83.33%
+  Edit Distance: 11
+
+Rank 4: grayscale
+  Overall Score: 90.29%
+  Character Accuracy: 91.43%
+  Word Accuracy: 93.02%
+  Line Accuracy: 83.33%
+  Edit Distance: 11
+
+Rank 5: deskew_grayscale_contrast_binarize(adaptive)
+  Overall Score: 87.63%
+  Character Accuracy: 91.95%
+  Word Accuracy: 90.70%
+  Line Accuracy: 72.22%
+  Edit Distance: 12
+
+Rank 6: grayscale_contrast_binarize(adaptive)
+  Overall Score: 87.63%
+  Character Accuracy: 91.95%
+  Word Accuracy: 90.70%
+  Line Accuracy: 72.22%
+  Edit Distance: 12
+
+Rank 7: deskew_grayscale_contrast
+  Overall Score: 87.49%
+  Character Accuracy: 89.44%
+  Word Accuracy: 90.70%
+  Line Accuracy: 77.78%
+  Edit Distance: 11
+
+Rank 8: grayscale_contrast
+  Overall Score: 87.49%
+  Character Accuracy: 89.44%
+  Word Accuracy: 90.70%
+  Line Accuracy: 77.78%
+  Edit Distance: 11
+
+Rank 9: deskew_grayscale_binarize(otsu)
+  Overall Score: 87.38%
+  Character Accuracy: 89.79%
+  Word Accuracy: 86.05%
+  Line Accuracy: 83.33%
+  Edit Distance: 16
+
+Rank 10: grayscale_binarize(otsu)
+  Overall Score: 87.38%
+  Character Accuracy: 89.79%
+  Word Accuracy: 86.05%
+  Line Accuracy: 83.33%
+  Edit Distance: 16
+
+Rank 11: deskew_grayscale_binarize(adaptive)
+  Overall Score: 87.31%
+  Character Accuracy: 92.00%
+  Word Accuracy: 89.53%
+  Line Accuracy: 72.22%
+  Edit Distance: 11
+
+Rank 12: grayscale_binarize(adaptive)
+  Overall Score: 87.31%
+  Character Accuracy: 92.00%
+  Word Accuracy: 89.53%
+  Line Accuracy: 72.22%
+  Edit Distance: 11
+
+Rank 13: minimal
+  Overall Score: 87.31%
+  Character Accuracy: 92.00%
+  Word Accuracy: 89.53%
+  Line Accuracy: 72.22%
+  Edit Distance: 11
+
+Rank 14: deskew_grayscale_denoise(bilateral)_binarize(adaptive)
+  Overall Score: 86.26%
+  Character Accuracy: 92.00%
+  Word Accuracy: 86.05%
+  Line Accuracy: 72.22%
+  Edit Distance: 14
+
+Rank 15: grayscale_denoise(bilateral)_binarize(adaptive)
+  Overall Score: 86.26%
+  Character Accuracy: 92.00%
+  Word Accuracy: 86.05%
+  Line Accuracy: 72.22%
+  Edit Distance: 14
+
+Rank 16: deskew
+  Overall Score: 85.72%
+  Character Accuracy: 91.76%
+  Word Accuracy: 88.37%
+  Line Accuracy: 66.67%
+  Edit Distance: 12
+
+Rank 17: deskew_grayscale_denoise(bilateral)_contrast_binarize(otsu)
+  Overall Score: 84.17%
+  Character Accuracy: 91.44%
+  Word Accuracy: 83.72%
+  Line Accuracy: 66.67%
+  Edit Distance: 21
+
+Rank 18: grayscale_denoise(bilateral)_contrast_binarize(otsu)
+  Overall Score: 84.17%
+  Character Accuracy: 91.44%
+  Word Accuracy: 83.72%
+  Line Accuracy: 66.67%
+  Edit Distance: 21
+
+Rank 19: deskew_grayscale_contrast_binarize(otsu)
+  Overall Score: 79.50%
+  Character Accuracy: 76.96%
+  Word Accuracy: 84.88%
+  Line Accuracy: 77.78%
+  Edit Distance: 15
+
+Rank 20: grayscale_contrast_binarize(otsu)
+  Overall Score: 79.50%
+  Character Accuracy: 76.96%
+  Word Accuracy: 84.88%
+  Line Accuracy: 77.78%
+  Edit Distance: 15
+
+Rank 21: deskew_grayscale_denoise(bilateral)_contrast_binarize(adaptive)
+  Overall Score: 74.10%
+  Character Accuracy: 78.41%
+  Word Accuracy: 75.58%
+  Line Accuracy: 61.11%
+  Edit Distance: 25
+
+Rank 22: grayscale_denoise(bilateral)_contrast_binarize(adaptive)
+  Overall Score: 74.10%
+  Character Accuracy: 78.41%
+  Word Accuracy: 75.58%
+  Line Accuracy: 61.11%
+  Edit Distance: 25
+
+Rank 23: deskew_grayscale_denoise(bilateral)_morph(open)
+  Overall Score: 72.67%
+  Character Accuracy: 76.12%
+  Word Accuracy: 70.93%
+  Line Accuracy: 66.67%
+  Edit Distance: 28
+
+Rank 24: grayscale_denoise(bilateral)_morph(open)
+  Overall Score: 72.67%
+  Character Accuracy: 76.12%
+  Word Accuracy: 70.93%
+  Line Accuracy: 66.67%
+  Edit Distance: 28
+
+Rank 25: deskew_grayscale_denoise(bilateral)_contrast_morph(open)
+  Overall Score: 70.90%
+  Character Accuracy: 79.54%
+  Word Accuracy: 59.30%
+  Line Accuracy: 66.67%
+  Edit Distance: 25
+
+Rank 26: grayscale_denoise(bilateral)_contrast_morph(open)
+  Overall Score: 70.90%
+  Character Accuracy: 79.54%
+  Word Accuracy: 59.30%
+  Line Accuracy: 66.67%
+  Edit Distance: 25
+
+Rank 27: deskew_grayscale_morph(open)
+  Overall Score: 68.97%
+  Character Accuracy: 73.02%
+  Word Accuracy: 67.44%
+  Line Accuracy: 61.11%
+  Edit Distance: 28
+
+Rank 28: grayscale_morph(open)
+  Overall Score: 68.97%
+  Character Accuracy: 73.02%
+  Word Accuracy: 67.44%
+  Line Accuracy: 61.11%
+  Edit Distance: 28
+
+Rank 29: deskew_grayscale_contrast_morph(open)
+  Overall Score: 68.51%
+  Character Accuracy: 74.32%
+  Word Accuracy: 67.44%
+  Line Accuracy: 55.56%
+  Edit Distance: 32
+
+Rank 30: grayscale_contrast_morph(open)
+  Overall Score: 68.51%
+  Character Accuracy: 74.32%
+  Word Accuracy: 67.44%
+  Line Accuracy: 55.56%
+  Edit Distance: 32
+
+Rank 31: deskew_grayscale_denoise(gaussian)
+  Overall Score: 65.69%
+  Character Accuracy: 58.80%
+  Word Accuracy: 80.23%
+  Line Accuracy: 61.11%
+  Edit Distance: 17
+
+Rank 32: grayscale_denoise(gaussian)
+  Overall Score: 65.69%
+  Character Accuracy: 58.80%
+  Word Accuracy: 80.23%
+  Line Accuracy: 61.11%
+  Edit Distance: 17
+
+Rank 33: deskew_grayscale_denoise(gaussian)_binarize(adaptive)
+  Overall Score: 64.10%
+  Character Accuracy: 59.68%
+  Word Accuracy: 69.77%
+  Line Accuracy: 66.67%
+  Edit Distance: 20
+
+Rank 34: grayscale_denoise(gaussian)_binarize(adaptive)
+  Overall Score: 64.10%
+  Character Accuracy: 59.68%
+  Word Accuracy: 69.77%
+  Line Accuracy: 66.67%
+  Edit Distance: 20
+
+Rank 35: deskew_grayscale_denoise(bilateral)
+  Overall Score: 59.57%
+  Character Accuracy: 40.97%
+  Word Accuracy: 89.53%
+  Line Accuracy: 61.11%
+  Edit Distance: 8
+
+Rank 36: grayscale_denoise(bilateral)
+  Overall Score: 59.57%
+  Character Accuracy: 40.97%
+  Word Accuracy: 89.53%
+  Line Accuracy: 61.11%
+  Edit Distance: 8
+
+Rank 37: deskew_grayscale_denoise(gaussian)_contrast_binarize(adaptive)
+  Overall Score: 58.51%
+  Character Accuracy: 54.21%
+  Word Accuracy: 63.95%
+  Line Accuracy: 61.11%
+  Edit Distance: 25
+
+Rank 38: grayscale_denoise(gaussian)_contrast_binarize(adaptive)
+  Overall Score: 58.51%
+  Character Accuracy: 54.21%
+  Word Accuracy: 63.95%
+  Line Accuracy: 61.11%
+  Edit Distance: 25
+
+Rank 39: deskew_grayscale_denoise(gaussian)_contrast
+  Overall Score: 56.10%
+  Character Accuracy: 53.96%
+  Word Accuracy: 67.44%
+  Line Accuracy: 44.44%
+  Edit Distance: 15
+
+Rank 40: grayscale_denoise(gaussian)_contrast
+  Overall Score: 56.10%
+  Character Accuracy: 53.96%
+  Word Accuracy: 67.44%
+  Line Accuracy: 44.44%
+  Edit Distance: 15
+
+Rank 41: deskew_grayscale_denoise(bilateral)_binarize(otsu)
+  Overall Score: 55.89%
+  Character Accuracy: 42.68%
+  Word Accuracy: 74.42%
+  Line Accuracy: 61.11%
+  Edit Distance: 18
+
+Rank 42: grayscale_denoise(bilateral)_binarize(otsu)
+  Overall Score: 55.89%
+  Character Accuracy: 42.68%
+  Word Accuracy: 74.42%
+  Line Accuracy: 61.11%
+  Edit Distance: 18
+
+Rank 43: standard
+  Overall Score: 50.19%
+  Character Accuracy: 43.66%
+  Word Accuracy: 68.60%
+  Line Accuracy: 38.89%
+  Edit Distance: 17
+
+Rank 44: deskew_grayscale_denoise(gaussian)_morph(open)
+  Overall Score: 46.64%
+  Character Accuracy: 44.10%
+  Word Accuracy: 52.33%
+  Line Accuracy: 44.44%
+  Edit Distance: 24
+
+Rank 45: grayscale_denoise(gaussian)_morph(open)
+  Overall Score: 46.64%
+  Character Accuracy: 44.10%
+  Word Accuracy: 52.33%
+  Line Accuracy: 44.44%
+  Edit Distance: 24
+
+Rank 46: deskew_grayscale_denoise(bilateral)_morph(erode)
+  Overall Score: 45.91%
+  Character Accuracy: 47.79%
+  Word Accuracy: 51.16%
+  Line Accuracy: 33.33%
+  Edit Distance: 28
+
+Rank 47: grayscale_denoise(bilateral)_morph(erode)
+  Overall Score: 45.91%
+  Character Accuracy: 47.79%
+  Word Accuracy: 51.16%
+  Line Accuracy: 33.33%
+  Edit Distance: 28
+
+Rank 48: deskew_grayscale_denoise(gaussian)_binarize(otsu)
+  Overall Score: 41.49%
+  Character Accuracy: 45.49%
+  Word Accuracy: 47.67%
+  Line Accuracy: 22.22%
+  Edit Distance: 27
+
+Rank 49: grayscale_denoise(gaussian)_binarize(otsu)
+  Overall Score: 41.49%
+  Character Accuracy: 45.49%
+  Word Accuracy: 47.67%
+  Line Accuracy: 22.22%
+  Edit Distance: 27
+
+Rank 50: deskew_grayscale_denoise(gaussian)_contrast_morph(close)
+  Overall Score: 40.97%
+  Character Accuracy: 45.15%
+  Word Accuracy: 46.51%
+  Line Accuracy: 22.22%
+  Edit Distance: 34
+
+Rank 51: grayscale_denoise(gaussian)_contrast_morph(close)
+  Overall Score: 40.97%
+  Character Accuracy: 45.15%
+  Word Accuracy: 46.51%
+  Line Accuracy: 22.22%
+  Edit Distance: 34
+
+Rank 52: deskew_grayscale_denoise(gaussian)_contrast_morph(dilate)
+  Overall Score: 40.76%
+  Character Accuracy: 48.34%
+  Word Accuracy: 44.19%
+  Line Accuracy: 16.67%
+  Edit Distance: 31
+
+Rank 53: grayscale_denoise(gaussian)_contrast_morph(dilate)
+  Overall Score: 40.76%
+  Character Accuracy: 48.34%
+  Word Accuracy: 44.19%
+  Line Accuracy: 16.67%
+  Edit Distance: 31
+
+Rank 54: deskew_grayscale_denoise(gaussian)_morph(dilate)
+  Overall Score: 38.94%
+  Character Accuracy: 41.65%
+  Word Accuracy: 41.86%
+  Line Accuracy: 27.78%
+  Edit Distance: 32
+
+Rank 55: grayscale_denoise(gaussian)_morph(dilate)
+  Overall Score: 38.94%
+  Character Accuracy: 41.65%
+  Word Accuracy: 41.86%
+  Line Accuracy: 27.78%
+  Edit Distance: 32
+
+Rank 56: deskew_grayscale_contrast_binarize(simple)
+  Overall Score: 37.52%
+  Character Accuracy: 39.82%
+  Word Accuracy: 29.07%
+  Line Accuracy: 44.44%
+  Edit Distance: 17
+
+Rank 57: grayscale_contrast_binarize(simple)
+  Overall Score: 37.52%
+  Character Accuracy: 39.82%
+  Word Accuracy: 29.07%
+  Line Accuracy: 44.44%
+  Edit Distance: 17
+
+Rank 58: deskew_grayscale_denoise(bilateral)_contrast_binarize(simple)
+  Overall Score: 36.44%
+  Character Accuracy: 36.14%
+  Word Accuracy: 27.91%
+  Line Accuracy: 50.00%
+  Edit Distance: 9
+
+Rank 59: grayscale_denoise(bilateral)_contrast_binarize(simple)
+  Overall Score: 36.44%
+  Character Accuracy: 36.14%
+  Word Accuracy: 27.91%
+  Line Accuracy: 50.00%
+  Edit Distance: 9
+
+Rank 60: deskew_grayscale_denoise(gaussian)_contrast_morph(open)
+  Overall Score: 35.60%
+  Character Accuracy: 38.73%
+  Word Accuracy: 43.02%
+  Line Accuracy: 16.67%
+  Edit Distance: 17
+
+Rank 61: grayscale_denoise(gaussian)_contrast_morph(open)
+  Overall Score: 35.60%
+  Character Accuracy: 38.73%
+  Word Accuracy: 43.02%
+  Line Accuracy: 16.67%
+  Edit Distance: 17
+
+Rank 62: deskew_grayscale_binarize(otsu)_morph(open)
+  Overall Score: 35.60%
+  Character Accuracy: 48.04%
+  Word Accuracy: 34.88%
+  Line Accuracy: 5.56%
+  Edit Distance: 43
+
+Rank 63: grayscale_binarize(otsu)_morph(open)
+  Overall Score: 35.60%
+  Character Accuracy: 48.04%
+  Word Accuracy: 34.88%
+  Line Accuracy: 5.56%
+  Edit Distance: 43
+
+Rank 64: deskew_grayscale_denoise(bilateral)_binarize(simple)
+  Overall Score: 35.15%
+  Character Accuracy: 33.56%
+  Word Accuracy: 27.91%
+  Line Accuracy: 50.00%
+  Edit Distance: 6
+
+Rank 65: grayscale_denoise(bilateral)_binarize(simple)
+  Overall Score: 35.15%
+  Character Accuracy: 33.56%
+  Word Accuracy: 27.91%
+  Line Accuracy: 50.00%
+  Edit Distance: 6
+
+Rank 66: deskew_grayscale_contrast_morph(erode)
+  Overall Score: 34.29%
+  Character Accuracy: 31.78%
+  Word Accuracy: 46.51%
+  Line Accuracy: 22.22%
+  Edit Distance: 25
+
+Rank 67: grayscale_contrast_morph(erode)
+  Overall Score: 34.29%
+  Character Accuracy: 31.78%
+  Word Accuracy: 46.51%
+  Line Accuracy: 22.22%
+  Edit Distance: 25
+
+Rank 68: deskew_grayscale_morph(erode)
+  Overall Score: 31.60%
+  Character Accuracy: 30.02%
+  Word Accuracy: 44.19%
+  Line Accuracy: 16.67%
+  Edit Distance: 24
+
+Rank 69: grayscale_morph(erode)
+  Overall Score: 31.60%
+  Character Accuracy: 30.02%
+  Word Accuracy: 44.19%
+  Line Accuracy: 16.67%
+  Edit Distance: 24
+
+Rank 70: deskew_grayscale_binarize(otsu)_morph(erode)
+  Overall Score: 30.74%
+  Character Accuracy: 34.83%
+  Word Accuracy: 40.70%
+  Line Accuracy: 5.56%
+  Edit Distance: 31
+
+Rank 71: grayscale_binarize(otsu)_morph(erode)
+  Overall Score: 30.74%
+  Character Accuracy: 34.83%
+  Word Accuracy: 40.70%
+  Line Accuracy: 5.56%
+  Edit Distance: 31
+
+Rank 72: deskew_grayscale_denoise(gaussian)_contrast_binarize(simple)
+  Overall Score: 30.67%
+  Character Accuracy: 33.22%
+  Word Accuracy: 20.93%
+  Line Accuracy: 38.89%
+  Edit Distance: 9
+
+Rank 73: grayscale_denoise(gaussian)_contrast_binarize(simple)
+  Overall Score: 30.67%
+  Character Accuracy: 33.22%
+  Word Accuracy: 20.93%
+  Line Accuracy: 38.89%
+  Edit Distance: 9
+
+Rank 74: deskew_grayscale_denoise(bilateral)_contrast_morph(close)
+  Overall Score: 29.88%
+  Character Accuracy: 32.60%
+  Word Accuracy: 26.74%
+  Line Accuracy: 27.78%
+  Edit Distance: 26
+
+Rank 75: grayscale_denoise(bilateral)_contrast_morph(close)
+  Overall Score: 29.88%
+  Character Accuracy: 32.60%
+  Word Accuracy: 26.74%
+  Line Accuracy: 27.78%
+  Edit Distance: 26
+
+Rank 76: deskew_grayscale_denoise(bilateral)_contrast_morph(dilate)
+  Overall Score: 28.66%
+  Character Accuracy: 31.00%
+  Word Accuracy: 29.07%
+  Line Accuracy: 22.22%
+  Edit Distance: 32
+
+Rank 77: grayscale_denoise(bilateral)_contrast_morph(dilate)
+  Overall Score: 28.66%
+  Character Accuracy: 31.00%
+  Word Accuracy: 29.07%
+  Line Accuracy: 22.22%
+  Edit Distance: 32
+
+Rank 78: deskew_grayscale_denoise(bilateral)_contrast_morph(erode)
+  Overall Score: 27.72%
+  Character Accuracy: 20.73%
+  Word Accuracy: 43.02%
+  Line Accuracy: 22.22%
+  Edit Distance: 23
+
+Rank 79: grayscale_denoise(bilateral)_contrast_morph(erode)
+  Overall Score: 27.72%
+  Character Accuracy: 20.73%
+  Word Accuracy: 43.02%
+  Line Accuracy: 22.22%
+  Edit Distance: 23
+
+Rank 80: deskew_grayscale_denoise(gaussian)_binarize(simple)
+  Overall Score: 26.13%
+  Character Accuracy: 29.99%
+  Word Accuracy: 18.60%
+  Line Accuracy: 27.78%
+  Edit Distance: 17
+
+Rank 81: grayscale_denoise(gaussian)_binarize(simple)
+  Overall Score: 26.13%
+  Character Accuracy: 29.99%
+  Word Accuracy: 18.60%
+  Line Accuracy: 27.78%
+  Edit Distance: 17
+
+Rank 82: deskew_grayscale_contrast_morph(close)
+  Overall Score: 25.80%
+  Character Accuracy: 27.67%
+  Word Accuracy: 13.95%
+  Line Accuracy: 38.89%
+  Edit Distance: 13
+
+Rank 83: grayscale_contrast_morph(close)
+  Overall Score: 25.80%
+  Character Accuracy: 27.67%
+  Word Accuracy: 13.95%
+  Line Accuracy: 38.89%
+  Edit Distance: 13
+
+Rank 84: deskew_grayscale_binarize(simple)
+  Overall Score: 25.04%
+  Character Accuracy: 11.95%
+  Word Accuracy: 30.23%
+  Line Accuracy: 50.00%
+  Edit Distance: 8
+
+Rank 85: grayscale_binarize(simple)
+  Overall Score: 25.04%
+  Character Accuracy: 11.95%
+  Word Accuracy: 30.23%
+  Line Accuracy: 50.00%
+  Edit Distance: 8
+
+Rank 86: deskew_grayscale_contrast_binarize(otsu)_morph(open)
+  Overall Score: 23.82%
+  Character Accuracy: 28.10%
+  Word Accuracy: 32.56%
+  Line Accuracy: 0.00%
+  Edit Distance: 38
+
+Rank 87: grayscale_contrast_binarize(otsu)_morph(open)
+  Overall Score: 23.82%
+  Character Accuracy: 28.10%
+  Word Accuracy: 32.56%
+  Line Accuracy: 0.00%
+  Edit Distance: 38
+
+Rank 88: deskew_grayscale_denoise(bilateral)_binarize(adaptive)_morph(erode)
+  Overall Score: 22.93%
+  Character Accuracy: 24.80%
+  Word Accuracy: 31.40%
+  Line Accuracy: 5.56%
+  Edit Distance: 26
+
+Rank 89: grayscale_denoise(bilateral)_binarize(adaptive)_morph(erode)
+  Overall Score: 22.93%
+  Character Accuracy: 24.80%
+  Word Accuracy: 31.40%
+  Line Accuracy: 5.56%
+  Edit Distance: 26
+
+Rank 90: deskew_grayscale_contrast_binarize(otsu)_morph(erode)
+  Overall Score: 22.76%
+  Character Accuracy: 24.59%
+  Word Accuracy: 34.88%
+  Line Accuracy: 0.00%
+  Edit Distance: 23
+
+Rank 91: grayscale_contrast_binarize(otsu)_morph(erode)
+  Overall Score: 22.76%
+  Character Accuracy: 24.59%
+  Word Accuracy: 34.88%
+  Line Accuracy: 0.00%
+  Edit Distance: 23
+
+Rank 92: deskew_grayscale_morph(close)
+  Overall Score: 22.10%
+  Character Accuracy: 32.64%
+  Word Accuracy: 8.14%
+  Line Accuracy: 16.67%
+  Edit Distance: 31
+
+Rank 93: grayscale_morph(close)
+  Overall Score: 22.10%
+  Character Accuracy: 32.64%
+  Word Accuracy: 8.14%
+  Line Accuracy: 16.67%
+  Edit Distance: 31
+
+Rank 94: deskew_grayscale_denoise(gaussian)_contrast_binarize(simple)_morph(erode)
+  Overall Score: 21.42%
+  Character Accuracy: 27.80%
+  Word Accuracy: 13.95%
+  Line Accuracy: 16.67%
+  Edit Distance: 10
+
+Rank 95: grayscale_denoise(gaussian)_contrast_binarize(simple)_morph(erode)
+  Overall Score: 21.42%
+  Character Accuracy: 27.80%
+  Word Accuracy: 13.95%
+  Line Accuracy: 16.67%
+  Edit Distance: 10
+
+Rank 96: deskew_grayscale_contrast_binarize(adaptive)_morph(open)
+  Overall Score: 21.37%
+  Character Accuracy: 25.30%
+  Word Accuracy: 29.07%
+  Line Accuracy: 0.00%
+  Edit Distance: 36
+
+Rank 97: grayscale_contrast_binarize(adaptive)_morph(open)
+  Overall Score: 21.37%
+  Character Accuracy: 25.30%
+  Word Accuracy: 29.07%
+  Line Accuracy: 0.00%
+  Edit Distance: 36
+
+Rank 98: deskew_grayscale_denoise(bilateral)_binarize(simple)_morph(erode)
+  Overall Score: 21.28%
+  Character Accuracy: 31.97%
+  Word Accuracy: 13.95%
+  Line Accuracy: 5.56%
+  Edit Distance: 21
+
+Rank 99: grayscale_denoise(bilateral)_binarize(simple)_morph(erode)
+  Overall Score: 21.28%
+  Character Accuracy: 31.97%
+  Word Accuracy: 13.95%
+  Line Accuracy: 5.56%
+  Edit Distance: 21
+
+Rank 100: deskew_grayscale_denoise(gaussian)_contrast_binarize(simple)_morph(open)
+  Overall Score: 21.14%
+  Character Accuracy: 27.93%
+  Word Accuracy: 12.79%
+  Line Accuracy: 16.67%
+  Edit Distance: 16
+
+Rank 101: grayscale_denoise(gaussian)_contrast_binarize(simple)_morph(open)
+  Overall Score: 21.14%
+  Character Accuracy: 27.93%
+  Word Accuracy: 12.79%
+  Line Accuracy: 16.67%
+  Edit Distance: 16
+
+Rank 102: deskew_grayscale_binarize(adaptive)_morph(open)
+  Overall Score: 20.63%
+  Character Accuracy: 23.11%
+  Word Accuracy: 30.23%
+  Line Accuracy: 0.00%
+  Edit Distance: 36
+
+Rank 103: grayscale_binarize(adaptive)_morph(open)
+  Overall Score: 20.63%
+  Character Accuracy: 23.11%
+  Word Accuracy: 30.23%
+  Line Accuracy: 0.00%
+  Edit Distance: 36
+
+Rank 104: deskew_grayscale_denoise(bilateral)_binarize(simple)_morph(open)
+  Overall Score: 20.59%
+  Character Accuracy: 28.37%
+  Word Accuracy: 13.95%
+  Line Accuracy: 11.11%
+  Edit Distance: 14
+
+Rank 105: grayscale_denoise(bilateral)_binarize(simple)_morph(open)
+  Overall Score: 20.59%
+  Character Accuracy: 28.37%
+  Word Accuracy: 13.95%
+  Line Accuracy: 11.11%
+  Edit Distance: 14
+
+Rank 106: deskew_grayscale_denoise(bilateral)_morph(dilate)
+  Overall Score: 20.55%
+  Character Accuracy: 19.78%
+  Word Accuracy: 24.42%
+  Line Accuracy: 16.67%
+  Edit Distance: 24
+
+Rank 107: grayscale_denoise(bilateral)_morph(dilate)
+  Overall Score: 20.55%
+  Character Accuracy: 19.78%
+  Word Accuracy: 24.42%
+  Line Accuracy: 16.67%
+  Edit Distance: 24
+
+Rank 108: deskew_grayscale_denoise(bilateral)_contrast_binarize(simple)_morph(open)
+  Overall Score: 19.89%
+  Character Accuracy: 27.66%
+  Word Accuracy: 12.79%
+  Line Accuracy: 11.11%
+  Edit Distance: 13
+
+Rank 109: grayscale_denoise(bilateral)_contrast_binarize(simple)_morph(open)
+  Overall Score: 19.89%
+  Character Accuracy: 27.66%
+  Word Accuracy: 12.79%
+  Line Accuracy: 11.11%
+  Edit Distance: 13
+
+Rank 110: deskew_grayscale_denoise(gaussian)_binarize(simple)_morph(erode)
+  Overall Score: 19.64%
+  Character Accuracy: 27.99%
+  Word Accuracy: 15.12%
+  Line Accuracy: 5.56%
+  Edit Distance: 15
+
+Rank 111: grayscale_denoise(gaussian)_binarize(simple)_morph(erode)
+  Overall Score: 19.64%
+  Character Accuracy: 27.99%
+  Word Accuracy: 15.12%
+  Line Accuracy: 5.56%
+  Edit Distance: 15
+
+Rank 112: deskew_grayscale_denoise(gaussian)_binarize(simple)_morph(open)
+  Overall Score: 19.34%
+  Character Accuracy: 27.95%
+  Word Accuracy: 10.47%
+  Line Accuracy: 11.11%
+  Edit Distance: 23
+
+Rank 113: grayscale_denoise(gaussian)_binarize(simple)_morph(open)
+  Overall Score: 19.34%
+  Character Accuracy: 27.95%
+  Word Accuracy: 10.47%
+  Line Accuracy: 11.11%
+  Edit Distance: 23
+
+Rank 114: deskew_grayscale_contrast_morph(dilate)
+  Overall Score: 19.29%
+  Character Accuracy: 30.91%
+  Word Accuracy: 12.79%
+  Line Accuracy: 0.00%
+  Edit Distance: 25
+
+Rank 115: grayscale_contrast_morph(dilate)
+  Overall Score: 19.29%
+  Character Accuracy: 30.91%
+  Word Accuracy: 12.79%
+  Line Accuracy: 0.00%
+  Edit Distance: 25
+
+Rank 116: deskew_grayscale_denoise(bilateral)_binarize(otsu)_morph(open)
+  Overall Score: 18.99%
+  Character Accuracy: 21.10%
+  Word Accuracy: 24.42%
+  Line Accuracy: 5.56%
+  Edit Distance: 26
+
+Rank 117: grayscale_denoise(bilateral)_binarize(otsu)_morph(open)
+  Overall Score: 18.99%
+  Character Accuracy: 21.10%
+  Word Accuracy: 24.42%
+  Line Accuracy: 5.56%
+  Edit Distance: 26
+
+Rank 118: deskew_grayscale_morph(dilate)
+  Overall Score: 17.67%
+  Character Accuracy: 28.93%
+  Word Accuracy: 6.98%
+  Line Accuracy: 5.56%
+  Edit Distance: 36
+
+Rank 119: grayscale_morph(dilate)
+  Overall Score: 17.67%
+  Character Accuracy: 28.93%
+  Word Accuracy: 6.98%
+  Line Accuracy: 5.56%
+  Edit Distance: 36
+
+Rank 120: deskew_grayscale_denoise(gaussian)_morph(erode)
+  Overall Score: 17.66%
+  Character Accuracy: 19.15%
+  Word Accuracy: 23.26%
+  Line Accuracy: 5.56%
+  Edit Distance: 18
+
+Rank 121: grayscale_denoise(gaussian)_morph(erode)
+  Overall Score: 17.66%
+  Character Accuracy: 19.15%
+  Word Accuracy: 23.26%
+  Line Accuracy: 5.56%
+  Edit Distance: 18
+
+Rank 122: deskew_grayscale_denoise(gaussian)_morph(close)
+  Overall Score: 17.66%
+  Character Accuracy: 18.18%
+  Word Accuracy: 17.44%
+  Line Accuracy: 16.67%
+  Edit Distance: 16
+
+Rank 123: grayscale_denoise(gaussian)_morph(close)
+  Overall Score: 17.66%
+  Character Accuracy: 18.18%
+  Word Accuracy: 17.44%
+  Line Accuracy: 16.67%
+  Edit Distance: 16
+
+Rank 124: deskew_grayscale_denoise(bilateral)_binarize(adaptive)_morph(open)
+  Overall Score: 15.55%
+  Character Accuracy: 14.09%
+  Word Accuracy: 20.93%
+  Line Accuracy: 11.11%
+  Edit Distance: 17
+
+Rank 125: grayscale_denoise(bilateral)_binarize(adaptive)_morph(open)
+  Overall Score: 15.55%
+  Character Accuracy: 14.09%
+  Word Accuracy: 20.93%
+  Line Accuracy: 11.11%
+  Edit Distance: 17
+
+Rank 126: deskew_grayscale_denoise(gaussian)_contrast_morph(erode)
+  Overall Score: 14.70%
+  Character Accuracy: 10.31%
+  Word Accuracy: 24.42%
+  Line Accuracy: 11.11%
+  Edit Distance: 9
+
+Rank 127: grayscale_denoise(gaussian)_contrast_morph(erode)
+  Overall Score: 14.70%
+  Character Accuracy: 10.31%
+  Word Accuracy: 24.42%
+  Line Accuracy: 11.11%
+  Edit Distance: 9
+
+Rank 128: deskew_grayscale_denoise(bilateral)_morph(close)
+  Overall Score: 14.45%
+  Character Accuracy: 10.24%
+  Word Accuracy: 16.28%
+  Line Accuracy: 22.22%
+  Edit Distance: 11
+
+Rank 129: grayscale_denoise(bilateral)_morph(close)
+  Overall Score: 14.45%
+  Character Accuracy: 10.24%
+  Word Accuracy: 16.28%
+  Line Accuracy: 22.22%
+  Edit Distance: 11
+
+Rank 130: deskew_grayscale_denoise(gaussian)_contrast_binarize(otsu)
+  Overall Score: 14.44%
+  Character Accuracy: 12.71%
+  Word Accuracy: 23.26%
+  Line Accuracy: 5.56%
+  Edit Distance: 18
+
+Rank 131: grayscale_denoise(gaussian)_contrast_binarize(otsu)
+  Overall Score: 14.44%
+  Character Accuracy: 12.71%
+  Word Accuracy: 23.26%
+  Line Accuracy: 5.56%
+  Edit Distance: 18
+
+Rank 132: deskew_grayscale_denoise(bilateral)_binarize(otsu)_morph(erode)
+  Overall Score: 14.28%
+  Character Accuracy: 8.33%
+  Word Accuracy: 33.72%
+  Line Accuracy: 0.00%
+  Edit Distance: 15
+
+Rank 133: grayscale_denoise(bilateral)_binarize(otsu)_morph(erode)
+  Overall Score: 14.28%
+  Character Accuracy: 8.33%
+  Word Accuracy: 33.72%
+  Line Accuracy: 0.00%
+  Edit Distance: 15
+
+Rank 134: deskew_grayscale_denoise(bilateral)_contrast_binarize(otsu)_morph(erode)
+  Overall Score: 14.24%
+  Character Accuracy: 12.43%
+  Word Accuracy: 26.74%
+  Line Accuracy: 0.00%
+  Edit Distance: 20
+
+Rank 135: grayscale_denoise(bilateral)_contrast_binarize(otsu)_morph(erode)
+  Overall Score: 14.24%
+  Character Accuracy: 12.43%
+  Word Accuracy: 26.74%
+  Line Accuracy: 0.00%
+  Edit Distance: 20
+
+Rank 136: deskew_grayscale_denoise(bilateral)_contrast_binarize(otsu)_morph(close)
+  Overall Score: 14.21%
+  Character Accuracy: 24.24%
+  Word Accuracy: 6.98%
+  Line Accuracy: 0.00%
+  Edit Distance: 41
+
+Rank 137: grayscale_denoise(bilateral)_contrast_binarize(otsu)_morph(close)
+  Overall Score: 14.21%
+  Character Accuracy: 24.24%
+  Word Accuracy: 6.98%
+  Line Accuracy: 0.00%
+  Edit Distance: 41
+
+Rank 138: deskew_grayscale_contrast_binarize(adaptive)_morph(erode)
+  Overall Score: 13.09%
+  Character Accuracy: 11.53%
+  Word Accuracy: 24.42%
+  Line Accuracy: 0.00%
+  Edit Distance: 22
+
+Rank 139: grayscale_contrast_binarize(adaptive)_morph(erode)
+  Overall Score: 13.09%
+  Character Accuracy: 11.53%
+  Word Accuracy: 24.42%
+  Line Accuracy: 0.00%
+  Edit Distance: 22
+
+Rank 140: deskew_grayscale_denoise(gaussian)_contrast_binarize(adaptive)_morph(open)
+  Overall Score: 12.51%
+  Character Accuracy: 14.56%
+  Word Accuracy: 17.44%
+  Line Accuracy: 0.00%
+  Edit Distance: 21
+
+Rank 141: grayscale_denoise(gaussian)_contrast_binarize(adaptive)_morph(open)
+  Overall Score: 12.51%
+  Character Accuracy: 14.56%
+  Word Accuracy: 17.44%
+  Line Accuracy: 0.00%
+  Edit Distance: 21
+
+Rank 142: aggressive
+  Overall Score: 11.84%
+  Character Accuracy: 5.16%
+  Word Accuracy: 19.77%
+  Line Accuracy: 16.67%
+  Edit Distance: 14
+
+Rank 143: deskew_grayscale_binarize(adaptive)_morph(erode)
+  Overall Score: 11.72%
+  Character Accuracy: 10.18%
+  Word Accuracy: 22.09%
+  Line Accuracy: 0.00%
+  Edit Distance: 23
+
+Rank 144: grayscale_binarize(adaptive)_morph(erode)
+  Overall Score: 11.72%
+  Character Accuracy: 10.18%
+  Word Accuracy: 22.09%
+  Line Accuracy: 0.00%
+  Edit Distance: 23
+
+Rank 145: deskew_grayscale_denoise(bilateral)_contrast_binarize(adaptive)_morph(open)
+  Overall Score: 10.56%
+  Character Accuracy: 10.66%
+  Word Accuracy: 17.44%
+  Line Accuracy: 0.00%
+  Edit Distance: 23
+
+Rank 146: grayscale_denoise(bilateral)_contrast_binarize(adaptive)_morph(open)
+  Overall Score: 10.56%
+  Character Accuracy: 10.66%
+  Word Accuracy: 17.44%
+  Line Accuracy: 0.00%
+  Edit Distance: 23
+
+Rank 147: deskew_grayscale_denoise(gaussian)_binarize(adaptive)_morph(close)
+  Overall Score: 10.30%
+  Character Accuracy: 19.21%
+  Word Accuracy: 2.33%
+  Line Accuracy: 0.00%
+  Edit Distance: 43
+
+Rank 148: grayscale_denoise(gaussian)_binarize(adaptive)_morph(close)
+  Overall Score: 10.30%
+  Character Accuracy: 19.21%
+  Word Accuracy: 2.33%
+  Line Accuracy: 0.00%
+  Edit Distance: 43
+
+Rank 149: deskew_grayscale_denoise(gaussian)_binarize(adaptive)_morph(open)
+  Overall Score: 9.88%
+  Character Accuracy: 5.80%
+  Word Accuracy: 23.26%
+  Line Accuracy: 0.00%
+  Edit Distance: 15
+
+Rank 150: grayscale_denoise(gaussian)_binarize(adaptive)_morph(open)
+  Overall Score: 9.88%
+  Character Accuracy: 5.80%
+  Word Accuracy: 23.26%
+  Line Accuracy: 0.00%
+  Edit Distance: 15
+
+Rank 151: deskew_grayscale_denoise(gaussian)_binarize(adaptive)_morph(erode)
+  Overall Score: 9.81%
+  Character Accuracy: 6.37%
+  Word Accuracy: 22.09%
+  Line Accuracy: 0.00%
+  Edit Distance: 17
+
+Rank 152: grayscale_denoise(gaussian)_binarize(adaptive)_morph(erode)
+  Overall Score: 9.81%
+  Character Accuracy: 6.37%
+  Word Accuracy: 22.09%
+  Line Accuracy: 0.00%
+  Edit Distance: 17
+
+Rank 153: deskew_grayscale_denoise(bilateral)_contrast_binarize(simple)_morph(erode)
+  Overall Score: 9.21%
+  Character Accuracy: 15.62%
+  Word Accuracy: 4.65%
+  Line Accuracy: 0.00%
+  Edit Distance: 11
+
+Rank 154: grayscale_denoise(bilateral)_contrast_binarize(simple)_morph(erode)
+  Overall Score: 9.21%
+  Character Accuracy: 15.62%
+  Word Accuracy: 4.65%
+  Line Accuracy: 0.00%
+  Edit Distance: 11
+
+Rank 155: deskew_grayscale_denoise(gaussian)_contrast_binarize(adaptive)_morph(erode)
+  Overall Score: 8.87%
+  Character Accuracy: 7.97%
+  Word Accuracy: 16.28%
+  Line Accuracy: 0.00%
+  Edit Distance: 11
+
+Rank 156: grayscale_denoise(gaussian)_contrast_binarize(adaptive)_morph(erode)
+  Overall Score: 8.87%
+  Character Accuracy: 7.97%
+  Word Accuracy: 16.28%
+  Line Accuracy: 0.00%
+  Edit Distance: 11
+
+Rank 157: deskew_grayscale_denoise(bilateral)_contrast_binarize(otsu)_morph(open)
+  Overall Score: 8.78%
+  Character Accuracy: 5.70%
+  Word Accuracy: 19.77%
+  Line Accuracy: 0.00%
+  Edit Distance: 14
+
+Rank 158: grayscale_denoise(bilateral)_contrast_binarize(otsu)_morph(open)
+  Overall Score: 8.78%
+  Character Accuracy: 5.70%
+  Word Accuracy: 19.77%
+  Line Accuracy: 0.00%
+  Edit Distance: 14
+
+Rank 159: deskew_grayscale_denoise(gaussian)_binarize(otsu)_morph(dilate)
+  Overall Score: 8.70%
+  Character Accuracy: 15.17%
+  Word Accuracy: 0.00%
+  Line Accuracy: 5.56%
+  Edit Distance: 29
+
+Rank 160: grayscale_denoise(gaussian)_binarize(otsu)_morph(dilate)
+  Overall Score: 8.70%
+  Character Accuracy: 15.17%
+  Word Accuracy: 0.00%
+  Line Accuracy: 5.56%
+  Edit Distance: 29
+
+Rank 161: deskew_grayscale_denoise(bilateral)_contrast_binarize(adaptive)_morph(erode)
+  Overall Score: 8.34%
+  Character Accuracy: 8.31%
+  Word Accuracy: 13.95%
+  Line Accuracy: 0.00%
+  Edit Distance: 17
+
+Rank 162: grayscale_denoise(bilateral)_contrast_binarize(adaptive)_morph(erode)
+  Overall Score: 8.34%
+  Character Accuracy: 8.31%
+  Word Accuracy: 13.95%
+  Line Accuracy: 0.00%
+  Edit Distance: 17
+
+Rank 163: deskew_grayscale_denoise(median)_contrast_morph(dilate)
+  Overall Score: 7.81%
+  Character Accuracy: 15.63%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 36
+
+Rank 164: grayscale_denoise(median)_contrast_morph(dilate)
+  Overall Score: 7.81%
+  Character Accuracy: 15.63%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 36
+
+Rank 165: deskew_grayscale_contrast_binarize(simple)_morph(open)
+  Overall Score: 7.64%
+  Character Accuracy: 6.08%
+  Word Accuracy: 11.63%
+  Line Accuracy: 5.56%
+  Edit Distance: 10
+
+Rank 166: grayscale_contrast_binarize(simple)_morph(open)
+  Overall Score: 7.64%
+  Character Accuracy: 6.08%
+  Word Accuracy: 11.63%
+  Line Accuracy: 5.56%
+  Edit Distance: 10
+
+Rank 167: deskew_grayscale_binarize(simple)_morph(open)
+  Overall Score: 7.49%
+  Character Accuracy: 11.48%
+  Word Accuracy: 5.81%
+  Line Accuracy: 0.00%
+  Edit Distance: 11
+
+Rank 168: grayscale_binarize(simple)_morph(open)
+  Overall Score: 7.49%
+  Character Accuracy: 11.48%
+  Word Accuracy: 5.81%
+  Line Accuracy: 0.00%
+  Edit Distance: 11
+
+Rank 169: deskew_grayscale_denoise(bilateral)_contrast_binarize(otsu)_morph(dilate)
+  Overall Score: 7.06%
+  Character Accuracy: 13.41%
+  Word Accuracy: 1.16%
+  Line Accuracy: 0.00%
+  Edit Distance: 35
+
+Rank 170: grayscale_denoise(bilateral)_contrast_binarize(otsu)_morph(dilate)
+  Overall Score: 7.06%
+  Character Accuracy: 13.41%
+  Word Accuracy: 1.16%
+  Line Accuracy: 0.00%
+  Edit Distance: 35
+
+Rank 171: deskew_grayscale_contrast_binarize(simple)_morph(erode)
+  Overall Score: 6.31%
+  Character Accuracy: 11.23%
+  Word Accuracy: 2.33%
+  Line Accuracy: 0.00%
+  Edit Distance: 20
+
+Rank 172: grayscale_contrast_binarize(simple)_morph(erode)
+  Overall Score: 6.31%
+  Character Accuracy: 11.23%
+  Word Accuracy: 2.33%
+  Line Accuracy: 0.00%
+  Edit Distance: 20
+
+Rank 173: deskew_grayscale_denoise(gaussian)_contrast_binarize(otsu)_morph(dilate)
+  Overall Score: 6.04%
+  Character Accuracy: 7.77%
+  Word Accuracy: 3.49%
+  Line Accuracy: 5.56%
+  Edit Distance: 14
+
+Rank 174: grayscale_denoise(gaussian)_contrast_binarize(otsu)_morph(dilate)
+  Overall Score: 6.04%
+  Character Accuracy: 7.77%
+  Word Accuracy: 3.49%
+  Line Accuracy: 5.56%
+  Edit Distance: 14
+
+Rank 175: deskew_grayscale_denoise(median)_contrast_binarize(simple)_morph(erode)
+  Overall Score: 5.60%
+  Character Accuracy: 11.20%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 25
+
+Rank 176: grayscale_denoise(median)_contrast_binarize(simple)_morph(erode)
+  Overall Score: 5.60%
+  Character Accuracy: 11.20%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 25
+
+Rank 177: deskew_grayscale_denoise(median)_morph(dilate)
+  Overall Score: 5.51%
+  Character Accuracy: 11.01%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 24
+
+Rank 178: grayscale_denoise(median)_morph(dilate)
+  Overall Score: 5.51%
+  Character Accuracy: 11.01%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 24
+
+Rank 179: deskew_grayscale_denoise(median)_binarize(adaptive)_morph(erode)
+  Overall Score: 5.21%
+  Character Accuracy: 9.02%
+  Word Accuracy: 2.33%
+  Line Accuracy: 0.00%
+  Edit Distance: 21
+
+Rank 180: grayscale_denoise(median)_binarize(adaptive)_morph(erode)
+  Overall Score: 5.21%
+  Character Accuracy: 9.02%
+  Word Accuracy: 2.33%
+  Line Accuracy: 0.00%
+  Edit Distance: 21
+
+Rank 181: deskew_grayscale_denoise(gaussian)_contrast_binarize(otsu)_morph(close)
+  Overall Score: 5.07%
+  Character Accuracy: 5.83%
+  Word Accuracy: 3.49%
+  Line Accuracy: 5.56%
+  Edit Distance: 9
+
+Rank 182: grayscale_denoise(gaussian)_contrast_binarize(otsu)_morph(close)
+  Overall Score: 5.07%
+  Character Accuracy: 5.83%
+  Word Accuracy: 3.49%
+  Line Accuracy: 5.56%
+  Edit Distance: 9
+
+Rank 183: deskew_grayscale_denoise(bilateral)_binarize(otsu)_morph(close)
+  Overall Score: 5.06%
+  Character Accuracy: 10.13%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 24
+
+Rank 184: grayscale_denoise(bilateral)_binarize(otsu)_morph(close)
+  Overall Score: 5.06%
+  Character Accuracy: 10.13%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 24
+
+Rank 185: deskew_grayscale_denoise(gaussian)_binarize(otsu)_morph(close)
+  Overall Score: 4.99%
+  Character Accuracy: 9.28%
+  Word Accuracy: 1.16%
+  Line Accuracy: 0.00%
+  Edit Distance: 19
+
+Rank 186: grayscale_denoise(gaussian)_binarize(otsu)_morph(close)
+  Overall Score: 4.99%
+  Character Accuracy: 9.28%
+  Word Accuracy: 1.16%
+  Line Accuracy: 0.00%
+  Edit Distance: 19
+
+Rank 187: deskew_grayscale_denoise(gaussian)_binarize(otsu)_morph(open)
+  Overall Score: 4.97%
+  Character Accuracy: 5.74%
+  Word Accuracy: 6.98%
+  Line Accuracy: 0.00%
+  Edit Distance: 12
+
+Rank 188: grayscale_denoise(gaussian)_binarize(otsu)_morph(open)
+  Overall Score: 4.97%
+  Character Accuracy: 5.74%
+  Word Accuracy: 6.98%
+  Line Accuracy: 0.00%
+  Edit Distance: 12
+
+Rank 189: deskew_grayscale_denoise(median)_binarize(adaptive)
+  Overall Score: 4.86%
+  Character Accuracy: 8.33%
+  Word Accuracy: 2.33%
+  Line Accuracy: 0.00%
+  Edit Distance: 18
+
+Rank 190: grayscale_denoise(median)_binarize(adaptive)
+  Overall Score: 4.86%
+  Character Accuracy: 8.33%
+  Word Accuracy: 2.33%
+  Line Accuracy: 0.00%
+  Edit Distance: 18
+
+Rank 191: deskew_grayscale_denoise(median)_binarize(simple)
+  Overall Score: 4.66%
+  Character Accuracy: 9.32%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 21
+
+Rank 192: grayscale_denoise(median)_binarize(simple)
+  Overall Score: 4.66%
+  Character Accuracy: 9.32%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 21
+
+Rank 193: deskew_grayscale_denoise(gaussian)_binarize(adaptive)_morph(dilate)
+  Overall Score: 4.53%
+  Character Accuracy: 9.07%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 26
+
+Rank 194: grayscale_denoise(gaussian)_binarize(adaptive)_morph(dilate)
+  Overall Score: 4.53%
+  Character Accuracy: 9.07%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 26
+
+Rank 195: deskew_grayscale_denoise(median)_contrast_binarize(simple)_morph(open)
+  Overall Score: 4.49%
+  Character Accuracy: 8.28%
+  Word Accuracy: 1.16%
+  Line Accuracy: 0.00%
+  Edit Distance: 21
+
+Rank 196: grayscale_denoise(median)_contrast_binarize(simple)_morph(open)
+  Overall Score: 4.49%
+  Character Accuracy: 8.28%
+  Word Accuracy: 1.16%
+  Line Accuracy: 0.00%
+  Edit Distance: 21
+
+Rank 197: deskew_grayscale_denoise(median)_binarize(simple)_morph(erode)
+  Overall Score: 4.46%
+  Character Accuracy: 8.93%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 23
+
+Rank 198: grayscale_denoise(median)_binarize(simple)_morph(erode)
+  Overall Score: 4.46%
+  Character Accuracy: 8.93%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 23
+
+Rank 199: deskew_grayscale_denoise(median)_contrast_binarize(simple)
+  Overall Score: 4.34%
+  Character Accuracy: 8.67%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 24
+
+Rank 200: grayscale_denoise(median)_contrast_binarize(simple)
+  Overall Score: 4.34%
+  Character Accuracy: 8.67%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 24
+
+Rank 201: deskew_grayscale_denoise(median)_binarize(otsu)_morph(dilate)
+  Overall Score: 4.18%
+  Character Accuracy: 8.37%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 22
+
+Rank 202: grayscale_denoise(median)_binarize(otsu)_morph(dilate)
+  Overall Score: 4.18%
+  Character Accuracy: 8.37%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 22
+
+Rank 203: deskew_grayscale_denoise(median)_contrast_binarize(otsu)_morph(dilate)
+  Overall Score: 3.71%
+  Character Accuracy: 7.42%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 19
+
+Rank 204: grayscale_denoise(median)_contrast_binarize(otsu)_morph(dilate)
+  Overall Score: 3.71%
+  Character Accuracy: 7.42%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 19
+
+Rank 205: deskew_grayscale_denoise(median)_contrast_binarize(adaptive)_morph(erode)
+  Overall Score: 3.64%
+  Character Accuracy: 5.88%
+  Word Accuracy: 2.33%
+  Line Accuracy: 0.00%
+  Edit Distance: 16
+
+Rank 206: grayscale_denoise(median)_contrast_binarize(adaptive)_morph(erode)
+  Overall Score: 3.64%
+  Character Accuracy: 5.88%
+  Word Accuracy: 2.33%
+  Line Accuracy: 0.00%
+  Edit Distance: 16
+
+Rank 207: deskew_grayscale_denoise(median)
+  Overall Score: 3.61%
+  Character Accuracy: 7.23%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 16
+
+Rank 208: grayscale_denoise(median)
+  Overall Score: 3.61%
+  Character Accuracy: 7.23%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 16
+
+Rank 209: deskew_grayscale_denoise(gaussian)_contrast_binarize(adaptive)_morph(close)
+  Overall Score: 3.26%
+  Character Accuracy: 4.43%
+  Word Accuracy: 3.49%
+  Line Accuracy: 0.00%
+  Edit Distance: 11
+
+Rank 210: grayscale_denoise(gaussian)_contrast_binarize(adaptive)_morph(close)
+  Overall Score: 3.26%
+  Character Accuracy: 4.43%
+  Word Accuracy: 3.49%
+  Line Accuracy: 0.00%
+  Edit Distance: 11
+
+Rank 211: deskew_grayscale_denoise(median)_binarize(simple)_morph(open)
+  Overall Score: 2.93%
+  Character Accuracy: 5.86%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 13
+
+Rank 212: grayscale_denoise(median)_binarize(simple)_morph(open)
+  Overall Score: 2.93%
+  Character Accuracy: 5.86%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 13
+
+Rank 213: deskew_grayscale_denoise(median)_contrast_binarize(adaptive)_morph(close)
+  Overall Score: 2.71%
+  Character Accuracy: 5.42%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 12
+
+Rank 214: grayscale_denoise(median)_contrast_binarize(adaptive)_morph(close)
+  Overall Score: 2.71%
+  Character Accuracy: 5.42%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 12
+
+Rank 215: deskew_grayscale_denoise(median)_contrast_binarize(adaptive)_morph(open)
+  Overall Score: 2.68%
+  Character Accuracy: 3.95%
+  Word Accuracy: 2.33%
+  Line Accuracy: 0.00%
+  Edit Distance: 11
+
+Rank 216: grayscale_denoise(median)_contrast_binarize(adaptive)_morph(open)
+  Overall Score: 2.68%
+  Character Accuracy: 3.95%
+  Word Accuracy: 2.33%
+  Line Accuracy: 0.00%
+  Edit Distance: 11
+
+Rank 217: deskew_grayscale_denoise(median)_contrast_binarize(otsu)
+  Overall Score: 2.65%
+  Character Accuracy: 2.50%
+  Word Accuracy: 4.65%
+  Line Accuracy: 0.00%
+  Edit Distance: 10
+
+Rank 218: grayscale_denoise(median)_contrast_binarize(otsu)
+  Overall Score: 2.65%
+  Character Accuracy: 2.50%
+  Word Accuracy: 4.65%
+  Line Accuracy: 0.00%
+  Edit Distance: 10
+
+Rank 219: deskew_grayscale_binarize(simple)_morph(erode)
+  Overall Score: 2.44%
+  Character Accuracy: 4.18%
+  Word Accuracy: 1.16%
+  Line Accuracy: 0.00%
+  Edit Distance: 12
+
+Rank 220: grayscale_binarize(simple)_morph(erode)
+  Overall Score: 2.44%
+  Character Accuracy: 4.18%
+  Word Accuracy: 1.16%
+  Line Accuracy: 0.00%
+  Edit Distance: 12
+
+Rank 221: deskew_grayscale_denoise(gaussian)_contrast_binarize(otsu)_morph(open)
+  Overall Score: 2.44%
+  Character Accuracy: 2.78%
+  Word Accuracy: 3.49%
+  Line Accuracy: 0.00%
+  Edit Distance: 14
+
+Rank 222: grayscale_denoise(gaussian)_contrast_binarize(otsu)_morph(open)
+  Overall Score: 2.44%
+  Character Accuracy: 2.78%
+  Word Accuracy: 3.49%
+  Line Accuracy: 0.00%
+  Edit Distance: 14
+
+Rank 223: deskew_grayscale_denoise(median)_contrast_morph(erode)
+  Overall Score: 2.27%
+  Character Accuracy: 4.55%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 12
+
+Rank 224: grayscale_denoise(median)_contrast_morph(erode)
+  Overall Score: 2.27%
+  Character Accuracy: 4.55%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 12
+
+Rank 225: deskew_grayscale_denoise(gaussian)_binarize(otsu)_morph(erode)
+  Overall Score: 2.22%
+  Character Accuracy: 2.34%
+  Word Accuracy: 3.49%
+  Line Accuracy: 0.00%
+  Edit Distance: 9
+
+Rank 226: grayscale_denoise(gaussian)_binarize(otsu)_morph(erode)
+  Overall Score: 2.22%
+  Character Accuracy: 2.34%
+  Word Accuracy: 3.49%
+  Line Accuracy: 0.00%
+  Edit Distance: 9
+
+Rank 227: deskew_grayscale_denoise(median)_morph(close)
+  Overall Score: 2.21%
+  Character Accuracy: 4.42%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 11
+
+Rank 228: grayscale_denoise(median)_morph(close)
+  Overall Score: 2.21%
+  Character Accuracy: 4.42%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 11
+
+Rank 229: deskew_grayscale_denoise(gaussian)_contrast_binarize(simple)_morph(close)
+  Overall Score: 2.19%
+  Character Accuracy: 4.39%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 10
+
+Rank 230: grayscale_denoise(gaussian)_contrast_binarize(simple)_morph(close)
+  Overall Score: 2.19%
+  Character Accuracy: 4.39%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 10
+
+Rank 231: deskew_grayscale_denoise(median)_morph(erode)
+  Overall Score: 2.17%
+  Character Accuracy: 2.24%
+  Word Accuracy: 3.49%
+  Line Accuracy: 0.00%
+  Edit Distance: 10
+
+Rank 232: grayscale_denoise(median)_morph(erode)
+  Overall Score: 2.17%
+  Character Accuracy: 2.24%
+  Word Accuracy: 3.49%
+  Line Accuracy: 0.00%
+  Edit Distance: 10
+
+Rank 233: deskew_grayscale_denoise(median)_binarize(adaptive)_morph(open)
+  Overall Score: 2.11%
+  Character Accuracy: 3.53%
+  Word Accuracy: 1.16%
+  Line Accuracy: 0.00%
+  Edit Distance: 11
+
+Rank 234: grayscale_denoise(median)_binarize(adaptive)_morph(open)
+  Overall Score: 2.11%
+  Character Accuracy: 3.53%
+  Word Accuracy: 1.16%
+  Line Accuracy: 0.00%
+  Edit Distance: 11
+
+Rank 235: deskew_grayscale_denoise(gaussian)_contrast_binarize(adaptive)_morph(dilate)
+  Overall Score: 2.02%
+  Character Accuracy: 2.64%
+  Word Accuracy: 2.33%
+  Line Accuracy: 0.00%
+  Edit Distance: 8
+
+Rank 236: grayscale_denoise(gaussian)_contrast_binarize(adaptive)_morph(dilate)
+  Overall Score: 2.02%
+  Character Accuracy: 2.64%
+  Word Accuracy: 2.33%
+  Line Accuracy: 0.00%
+  Edit Distance: 8
+
+Rank 237: deskew_grayscale_denoise(median)_contrast_binarize(adaptive)
+  Overall Score: 1.99%
+  Character Accuracy: 2.58%
+  Word Accuracy: 2.33%
+  Line Accuracy: 0.00%
+  Edit Distance: 12
+
+Rank 238: grayscale_denoise(median)_contrast_binarize(adaptive)
+  Overall Score: 1.99%
+  Character Accuracy: 2.58%
+  Word Accuracy: 2.33%
+  Line Accuracy: 0.00%
+  Edit Distance: 12
+
+Rank 239: deskew_grayscale_denoise(median)_binarize(otsu)_morph(erode)
+  Overall Score: 1.97%
+  Character Accuracy: 3.95%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 12
+
+Rank 240: grayscale_denoise(median)_binarize(otsu)_morph(erode)
+  Overall Score: 1.97%
+  Character Accuracy: 3.95%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 12
+
+Rank 241: deskew_grayscale_denoise(median)_binarize(otsu)_morph(close)
+  Overall Score: 1.93%
+  Character Accuracy: 3.87%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 10
+
+Rank 242: grayscale_denoise(median)_binarize(otsu)_morph(close)
+  Overall Score: 1.93%
+  Character Accuracy: 3.87%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 10
+
+Rank 243: deskew_grayscale_denoise(bilateral)_binarize(otsu)_morph(dilate)
+  Overall Score: 1.72%
+  Character Accuracy: 3.44%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 8
+
+Rank 244: grayscale_denoise(bilateral)_binarize(otsu)_morph(dilate)
+  Overall Score: 1.72%
+  Character Accuracy: 3.44%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 8
+
+Rank 245: deskew_grayscale_denoise(gaussian)_contrast_binarize(otsu)_morph(erode)
+  Overall Score: 1.63%
+  Character Accuracy: 1.87%
+  Word Accuracy: 2.33%
+  Line Accuracy: 0.00%
+  Edit Distance: 5
+
+Rank 246: grayscale_denoise(gaussian)_contrast_binarize(otsu)_morph(erode)
+  Overall Score: 1.63%
+  Character Accuracy: 1.87%
+  Word Accuracy: 2.33%
+  Line Accuracy: 0.00%
+  Edit Distance: 5
+
+Rank 247: deskew_grayscale_denoise(median)_binarize(otsu)
+  Overall Score: 1.49%
+  Character Accuracy: 2.28%
+  Word Accuracy: 1.16%
+  Line Accuracy: 0.00%
+  Edit Distance: 10
+
+Rank 248: grayscale_denoise(median)_binarize(otsu)
+  Overall Score: 1.49%
+  Character Accuracy: 2.28%
+  Word Accuracy: 1.16%
+  Line Accuracy: 0.00%
+  Edit Distance: 10
+
+Rank 249: deskew_grayscale_denoise(median)_contrast_binarize(otsu)_morph(erode)
+  Overall Score: 1.47%
+  Character Accuracy: 2.24%
+  Word Accuracy: 1.16%
+  Line Accuracy: 0.00%
+  Edit Distance: 9
+
+Rank 250: grayscale_denoise(median)_contrast_binarize(otsu)_morph(erode)
+  Overall Score: 1.47%
+  Character Accuracy: 2.24%
+  Word Accuracy: 1.16%
+  Line Accuracy: 0.00%
+  Edit Distance: 9
+
+Rank 251: deskew_grayscale_denoise(median)_binarize(adaptive)_morph(close)
+  Overall Score: 1.40%
+  Character Accuracy: 2.80%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 5
+
+Rank 252: grayscale_denoise(median)_binarize(adaptive)_morph(close)
+  Overall Score: 1.40%
+  Character Accuracy: 2.80%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 5
+
+Rank 253: deskew_grayscale_denoise(median)_binarize(adaptive)_morph(dilate)
+  Overall Score: 1.26%
+  Character Accuracy: 2.53%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 6
+
+Rank 254: grayscale_denoise(median)_binarize(adaptive)_morph(dilate)
+  Overall Score: 1.26%
+  Character Accuracy: 2.53%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 6
+
+Rank 255: deskew_grayscale_denoise(median)_contrast
+  Overall Score: 1.17%
+  Character Accuracy: 1.64%
+  Word Accuracy: 1.16%
+  Line Accuracy: 0.00%
+  Edit Distance: 5
+
+Rank 256: grayscale_denoise(median)_contrast
+  Overall Score: 1.17%
+  Character Accuracy: 1.64%
+  Word Accuracy: 1.16%
+  Line Accuracy: 0.00%
+  Edit Distance: 5
+
+Rank 257: deskew_grayscale_contrast_binarize(otsu)_morph(close)
+  Overall Score: 0.85%
+  Character Accuracy: 1.69%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 5
+
+Rank 258: deskew_grayscale_denoise(median)_contrast_binarize(adaptive)_morph(dilate)
+  Overall Score: 0.85%
+  Character Accuracy: 1.69%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 4
+
+Rank 259: grayscale_contrast_binarize(otsu)_morph(close)
+  Overall Score: 0.85%
+  Character Accuracy: 1.69%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 5
+
+Rank 260: grayscale_denoise(median)_contrast_binarize(adaptive)_morph(dilate)
+  Overall Score: 0.85%
+  Character Accuracy: 1.69%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 4
+
+Rank 261: deskew_grayscale_binarize(adaptive)_morph(close)
+  Overall Score: 0.84%
+  Character Accuracy: 1.68%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 7
+
+Rank 262: deskew_grayscale_contrast_binarize(adaptive)_morph(close)
+  Overall Score: 0.84%
+  Character Accuracy: 1.68%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 7
+
+Rank 263: grayscale_binarize(adaptive)_morph(close)
+  Overall Score: 0.84%
+  Character Accuracy: 1.68%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 7
+
+Rank 264: grayscale_contrast_binarize(adaptive)_morph(close)
+  Overall Score: 0.84%
+  Character Accuracy: 1.68%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 7
+
+Rank 265: deskew_grayscale_binarize(otsu)_morph(close)
+  Overall Score: 0.71%
+  Character Accuracy: 1.42%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 5
+
+Rank 266: grayscale_binarize(otsu)_morph(close)
+  Overall Score: 0.71%
+  Character Accuracy: 1.42%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 5
+
+Rank 267: deskew_grayscale_denoise(gaussian)_contrast_binarize(simple)_morph(dilate)
+  Overall Score: 0.57%
+  Character Accuracy: 1.13%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 3
+
+Rank 268: grayscale_denoise(gaussian)_contrast_binarize(simple)_morph(dilate)
+  Overall Score: 0.57%
+  Character Accuracy: 1.13%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 3
+
+Rank 269: deskew_grayscale_denoise(median)_contrast_binarize(otsu)_morph(close)
+  Overall Score: 0.28%
+  Character Accuracy: 0.57%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 3
+
+Rank 270: grayscale_denoise(median)_contrast_binarize(otsu)_morph(close)
+  Overall Score: 0.28%
+  Character Accuracy: 0.57%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 3
+
+Rank 271: deskew_grayscale_contrast_binarize(otsu)_morph(dilate)
+  Overall Score: 0.14%
+  Character Accuracy: 0.29%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 2
+
+Rank 272: grayscale_contrast_binarize(otsu)_morph(dilate)
+  Overall Score: 0.14%
+  Character Accuracy: 0.29%
+  Word Accuracy: 0.00%
+  Line Accuracy: 0.00%
+  Edit Distance: 2
+
+Best Pipeline: deskew_grayscale_denoise(bilateral)_contrast
