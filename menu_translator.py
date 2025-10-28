@@ -8,6 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 from simple_ocr import SimpleOCR
+from pathlib import Path
 
 
 class MenuImagePreprocessor:
@@ -19,11 +20,13 @@ class MenuImagePreprocessor:
         if self.original_image is None:
             raise ValueError(f"[x] Unable to load image: {image_path}")
         self.processed_image = self.original_image.copy()
+        self.result_file_name = ""  # for file-naming purposes
     
     def convert_to_grayscale(self):
         """Convert image to grayscale image"""
         self.processed_image = cv2.cvtColor(self.processed_image, cv2.COLOR_BGR2GRAY)
         print("[✓] Converted to grayscale")
+        self.result_file_name += "_grayscale"
         return self.processed_image
     
     def denoise(self, method='gaussian', kernel_size=5):
@@ -53,9 +56,11 @@ class MenuImagePreprocessor:
                 (kernel_size, kernel_size), 
                 0
             )
+            self.result_file_name += "_denoise(gaussian)"
         elif method == 'median':
             # Median filter - suitable for salt-and-pepper noise
             self.processed_image = cv2.medianBlur(self.processed_image, kernel_size)
+            self.result_file_name += "_denoise(median)"
         elif method == 'bilateral':
             # Bilateral filter - edge-preserving denoising
             self.processed_image = cv2.bilateralFilter(
@@ -64,6 +69,7 @@ class MenuImagePreprocessor:
                 75, 
                 75
             )
+            self.result_file_name += "_denoise(bilateral)"
         
         print(f"[✓] Completed {method} denoising")
         return self.processed_image
@@ -96,6 +102,7 @@ class MenuImagePreprocessor:
                 255, 
                 cv2.THRESH_BINARY
             )
+            self.result_file_name += "_binarize(simple)"
         elif method == 'adaptive':
             # Adaptive threshold - suitable for uneven lighting
             self.processed_image = cv2.adaptiveThreshold(
@@ -106,6 +113,7 @@ class MenuImagePreprocessor:
                 block_size,
                 c
             )
+            self.result_file_name += "_binarize(adaptive)"
         elif method == 'otsu':
             # Otsu's automatic threshold
             _, self.processed_image = cv2.threshold(
@@ -114,6 +122,7 @@ class MenuImagePreprocessor:
                 255,
                 cv2.THRESH_BINARY + cv2.THRESH_OTSU
             )
+            self.result_file_name += "_binarize(otsu)"
         
         print(f"[✓] Completed {method} binarization")
         return self.processed_image
@@ -128,6 +137,7 @@ class MenuImagePreprocessor:
         self.processed_image = clahe.apply(self.processed_image)
         
         print("[✓] Enhanced contrast")
+        self.result_file_name += "_contrast"
         return self.processed_image
     
     def deskew(self):
@@ -167,6 +177,7 @@ class MenuImagePreprocessor:
                 )
                 
                 print(f"[✓] Corrected skew angle: {median_angle:.2f}°")
+                self.result_file_name += "_deskew"
             else:
                 print("⚠ No significant skew detected")
         else:
@@ -208,6 +219,7 @@ class MenuImagePreprocessor:
         )
         
         print(f"[✓] Resized to {new_w}x{new_h}")
+        self.result_file_name += "_resize"
         return self.processed_image
     
     def morphological_operations(self, operation='close', kernel_size=3):
@@ -235,20 +247,24 @@ class MenuImagePreprocessor:
         if operation == 'dilate':
             # Make text thicker
             self.processed_image = cv2.dilate(self.processed_image, kernel, iterations=1)
+            self.result_file_name += "_morph(dilate)"
         elif operation == 'erode':
             # Make text thinner
             self.processed_image = cv2.erode(self.processed_image, kernel, iterations=1)
+            self.result_file_name += "_morph(erode)"
         elif operation == 'open':
             # Remove small noise (erosion then dilation)
             self.processed_image = cv2.morphologyEx(self.processed_image, cv2.MORPH_OPEN, kernel)
+            self.result_file_name += "_morph(open)"
         elif operation == 'close':
             # Fill small holes (dilation then erosion)
             self.processed_image = cv2.morphologyEx(self.processed_image, cv2.MORPH_CLOSE, kernel)
+            self.result_file_name += "_morph(close)"
         
         print(f"[✓] Applied {operation} morphological operation")
         return self.processed_image
     
-    def preprocess_pipeline(self, pipeline='standard'):
+    def preprocess_pipeline(self, pipeline='standard', custom_options=None):
         """
         Run a complete preprocessing pipeline
         
@@ -259,10 +275,10 @@ class MenuImagePreprocessor:
             Fully preprocessed image
 
         Notes:
-            - Minimal:      grayscale -> binarize(adaptive)
-            - Standard:     grayscale -> denoise(gaussian) -> contrast -> binarize(adaptive)
-            - Aggressive:   deskew -> grayscale -> denoise(bilateral) -> contrast -> binarize(otsu) -> morph(close)
-            - Custom:       user options
+            - Minimal:          grayscale -> binarize(adaptive)
+            - Standard:         grayscale -> denoise(gaussian) -> contrast -> binarize(adaptive)
+            - Aggressive:       deskew -> grayscale -> denoise(bilateral) -> contrast -> binarize(otsu) -> morph(close)
+            - Custom:           user options
         """
         print(f"\n--- Running {pipeline} preprocessing pipeline ---")
         
@@ -320,8 +336,8 @@ class MenuImagePreprocessor:
                     "How do you want to denoise? (g=gaussian, m=median, b=bilateral)",
                     {'g': 'gaussian', 'm': 'median', 'b': 'bilateral'}
                 )
-            if method:
-                self.denoise(method=method)
+                if method:
+                    self.denoise(method=method)
     
             # Contrast
             if ask_yes_no("Do you choose to enhance the contrast?"):
@@ -333,6 +349,7 @@ class MenuImagePreprocessor:
                     "How do you want to binarize? (s=simple, a=adaptive, o=otsu)",
                     {'s': 'simple', 'a': 'adaptive', 'o': 'otsu'}
                 )
+
                 if method:
                     self.binarize(method=method)
     
@@ -344,8 +361,8 @@ class MenuImagePreprocessor:
                 )
                 if operation:
                     self.morphological_operations(operation=operation)
-        
-            
+                
+
         print("--- Preprocessing complete ---\n")
         return self.processed_image
     
@@ -407,44 +424,99 @@ if __name__ == "__main__":
         print(f"Supported formats: {', '.join(supported_formats)}")
         exit()
     
+    # Define where OCR results will go
+    result_folder = Path("test_results")
+    result_folder.mkdir(exist_ok=True)
+    
     # Initialize preprocessor
     print(f"\nProcessing '{filename}'...")
-    preprocessor = MenuImagePreprocessor(filename)
     
-    # Run preprocessing pipeline
-    processed = preprocessor.preprocess_pipeline(pipeline='custom')
-    
-    # Generate output filename
-    name_without_ext = os.path.splitext(filename)[0]
-    output_filename = f"{name_without_ext}_processed{ext}"
-    
-    # Save result
-    preprocessor.save_image(output_filename)
-    
-    # Show comparison
-    ###preprocessor.show_comparison()
+    # Let's try 320 options!!
+    if input(" *** Do you wish to try every single possibility? (y/n) Your Answer: ").lower() == 'y':
+        all_options = []
+        
+        deskew_options = [True, False]
+        denoise_options = ['gaussian', 'median', 'bilateral', None]
+        contrast_options = [True, False]
+        binarize_options = ['simple', 'adaptive', 'otsu', None]
+        morph_options = ['dilate', 'erode', 'open', 'close', None]
+        
+        for s in deskew_options:
+            for n in denoise_options:
+                for c in contrast_options:
+                    for b in binarize_options:
+                        for m in morph_options:
+                            all_options.append([s,n,c,b,m])
+        
+        print(f'[✓✓✓✓✓...] number of options created: {len(all_options)} options')
 
-    ocr = SimpleOCR()
-    
-    # Check supported languages
-    ocr.get_supported_languages()
-    
-    # Method 1: Simple text extraction
-    print("\n--- Method 1: Simple Extraction ---")
-    text = ocr.extract_text(output_filename, lang='eng')
-    print(text)
+        for deskew_opt, denoise_opt, contrast_opt, binarize_opt, morph_opt in all_options:
+            preprocessor = MenuImagePreprocessor(filename)
+            
+            if deskew_opt:
+                preprocessor.deskew()
+            
+            if denoise_opt:
+                preprocessor.denoise(method=denoise_opt)
 
-    # Method 2: Extract with confidence scores
-    print("\n--- Method 2: With Confidence ---")
-    results = ocr.extract_text_with_confidence(output_filename, lang='eng')
-    for item in results[:10]:  # Show first 10 items
-        print(f"{item['text']:20s} (confidence: {item['confidence']}%)")
+            if contrast_opt:
+                preprocessor.enhance_contrast()
+
+            if binarize_opt:
+                preprocessor.binarize(method=binarize_opt)
+
+            if morph_opt:
+                preprocessor.morphological_operations(operation=morph_opt)
+            
+            ocr = SimpleOCR()
+
+            cleaned_text = ocr.extract_and_clean(preprocessor.processed_image, lang='eng')
+
+            result_file_name = f"{preprocessor.result_file_name[1:]}.txt"
+            result_file_path = result_folder / result_file_name
+            ocr.save_text(cleaned_text, result_file_path)
+            print(f'--- {result_file_name} saved ---')
+
+
+    # original code, keep intact
+    else:
+        preprocessor = MenuImagePreprocessor(filename)
+        # Run preprocessing pipeline
+        processed = preprocessor.preprocess_pipeline(pipeline='custom')
     
-    # Method 3: Extract and clean
-    print("\n--- Method 3: Cleaned Text ---")
-    cleaned = ocr.extract_and_clean(output_filename, lang='eng')
-    print(cleaned)
+        # Generate output filename
+        name_without_ext = os.path.splitext(filename)[0]
+        output_filename = f"{name_without_ext}_processed{ext}"
     
-    # Save to file
-    ocr.save_text(cleaned, "menu_extracted.txt")
+        # Save result
+        preprocessor.save_image(output_filename)
+    
+        # Show comparison
+        ###preprocessor.show_comparison()
+
+        ocr = SimpleOCR()
+    
+        # Check supported languages
+        ocr.get_supported_languages()
+    
+        # Method 1: Simple text extraction
+        print("\n--- Method 1: Simple Extraction ---")
+        text = ocr.extract_text(output_filename, lang='eng')
+        print(text)
+
+        # Method 2: Extract with confidence scores
+        print("\n--- Method 2: With Confidence ---")
+        results = ocr.extract_text_with_confidence(output_filename, lang='eng')
+        for item in results[:10]:  # Show first 10 items
+            print(f"{item['text']:20s} (confidence: {item['confidence']}%)")
+    
+        # Method 3: Extract and clean
+        print("\n--- Method 3: Cleaned Text ---")
+        cleaned = ocr.extract_and_clean(output_filename, lang='eng')
+        print(cleaned)
+    
+        # Save to file
+        result_file_name = f"{preprocessor.result_file_name[1:]}.txt"
+        result_file_path = result_folder / result_file_name
+        ocr.save_text(cleaned, result_file_path)
     
